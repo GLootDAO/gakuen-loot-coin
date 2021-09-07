@@ -1,15 +1,22 @@
-# Basic Sample Hardhat Project
+# Gakuen Loot Coin
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Prerequisites
+- Node.js
+- yarn
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/deploy.ts
-npx hardhat help
+## Install
+```bash
+git clone git@github.com:GLootDAO/gakuen-loot-coin.git
+yarn
+yarn test
 ```
+
+## Address
+- GCoin: 0x309a47D5b799a5AD834e445Dc202Db7e231E9924
+
+## LICENSE
+MIT LICENSE
+
+## Authors
+- serinuntius / [@_serinuntius](https://twitter.com/_serinuntius)
+
