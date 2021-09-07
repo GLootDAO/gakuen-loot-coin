@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "hardhat run --network polygon scripts/deploy.ts",
+    "deploy:GLootCoin": "hardhat run --network polygon scripts/deployGLootCoin.ts",
+    "deploy:StakingPoolAndCFC": "hardhat run --network polygon scripts/deployStakingPoolAndCFC.ts",
     "compile": "hardhat compile",
     "test": "hardhat test"
   },
